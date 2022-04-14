@@ -1,0 +1,26 @@
+body{
+  padding: 50px;
+  background-color: rgb(236, 236, 236);
+  margin: 0;
+}
+table{
+  width: 800px;
+  height: 800px; 
+  margin: 0 auto; 
+  padding: 0;
+  border: 2px solid rgb(120, 120, 120);
+  border-collapse: collapse; 
+  box-shadow: 1px 1px 20px 20px gray;        
+}
+td{
+  width: 100px;
+  height: 100px;
+}
+tr:nth-child(even) td:nth-child(odd){ 
+  
+  background-color: black;
+}
+tr:nth-child(odd) :nth-child(even){
+  
+  background-color: #000;
+} 
