@@ -1,26 +1,49 @@
 body{
   padding: 50px;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(255, 255, 255);
   margin: 0;
 }
 table{
-  width: 800px;
-  height: 800px; 
+  background-color: rgb(233, 232, 232);
+  max-width: 832px;
+  max-height: 832px;
+  min-width: 832px;
+  min-height: 832px;
   margin: 0 auto; 
   padding: 0;
-  border: 2px solid rgb(120, 120, 120);
-  border-collapse: collapse; 
+  border: 2px solid rgb(120, 120, 120, 0);
   box-shadow: 1px 1px 20px 20px gray;        
 }
 td{
-  width: 100px;
-  height: 100px;
+  max-width: 104px;
+  max-height: 104px;
+  min-width: 104px;
+  min-height: 104px;
+  height: 104px;
 }
 tr:nth-child(even) td:nth-child(odd){ 
-  
-  background-color: black;
+  position: relative;
+  background-color: rgb(94, 94, 94);
 }
 tr:nth-child(odd) :nth-child(even){
-  
-  background-color: #000;
+  position: relative;
+  background-color: rgb(94, 94, 94);
 } 
+
+
+/* pawns images */
+
+.goldPawns, .blackPawns{
+  width: 50px;
+  height: 75px;
+  margin-left: 25px;  
+}  
+
+/* active green border */
+
+tr td.active{
+border: 2px solid lime;
+box-sizing: border-box;  
+}
+
+
