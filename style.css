@@ -4,7 +4,7 @@ body{
   margin: 0;
 }
 table{
-  background-color: rgb(233, 232, 232);
+  background-color: rgb(235, 235, 235);
   max-width: 832px;
   max-height: 832px;
   min-width: 832px;
@@ -12,7 +12,7 @@ table{
   margin: 0 auto; 
   padding: 0;
   border: 2px solid rgb(120, 120, 120, 0);
-  box-shadow: 1px 1px 20px 20px gray;        
+  box-shadow: 1px 1px 20px 20px rgb(128, 128, 128);        
 }
 td{
   max-width: 104px;
@@ -41,9 +41,16 @@ tr:nth-child(odd) :nth-child(even){
 
 /* active green border */
 
-tr td.active{
+.active{
 border: 2px solid lime;
 box-sizing: border-box;  
 }
+
+ /* possible movment */
+
+.movement{
+  border: 2px solid #ffff00;
+}
+
 
 
